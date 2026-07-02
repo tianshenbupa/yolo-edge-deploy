@@ -27,7 +27,7 @@
 ```text
 ├── 00-export_yolo.py       # [学习步 1]：通用的 ONNX 格式导出（掌握跨框架解耦与动态输入）
 ├── 01-convert_trt.py       # [学习步 2]：激活 TensorRT 编译器（掌握硬件专属编译与 FP16 暴力加速）
-├── 03-live_inference.py    # [学习步 3]：无弹窗流式推理主程序（掌握 Headless 架构与多流处理）
+├── 02-live_inference.py    # [学习步 3]：无弹窗流式推理主程序（掌握 Headless 架构与多流处理）
 │
 ├── yolov8n.pt              # 资产：PyTorch 官方原生权重（部署流水线的源头）
 ├── test.mp4                # 资产：输入的测试视频流
